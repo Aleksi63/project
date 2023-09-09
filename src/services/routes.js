@@ -1,4 +1,4 @@
-import {Home, About, Contact, Products, ProductDetails} from '../pages';
+import { Home, Contact, Products, ProductDetails, ProductAdd, ProductEdit, Favorites } from '../pages';
 
 export const routesMap = [
     {
@@ -8,10 +8,6 @@ export const routesMap = [
     {
         path: '/home',
         element: <Home />
-    },
-    {
-        path: '/about',
-        element: <About />
     },
     {
         path: '/contact',
@@ -24,5 +20,21 @@ export const routesMap = [
     {
         path: '/products/:prID',
         element: <ProductDetails />
+    },
+    {
+        path: '/product-add',
+        element: <ProductAdd />
+    },
+    {
+        path: '/product-edit/:prID',
+        element: <ProductEdit />
+    },
+    {
+        path: '/products/category/:catURL',
+        element: <Products />
+    },
+    {
+        path: '/favorites',
+        element: <Favorites />
     },
 ];

@@ -3,28 +3,28 @@ export const langs = {
         home :{
             title: 'მთავარი',
         },
-        about :{
-            title: 'ჩვენს შესახებ',
-        },
         contact :{
             title: 'კონტაქტი',
         },
         products :{
             title: 'პროდუქტები',
         },
+        productAdd :{
+            title: 'პროდუქტის დამატება',
+        },
     },
     en: {
         home :{
             title: 'Home',
-        },
-        about :{
-            title: 'About',
         },
         contact :{
             title: 'Contact',
         },
         products :{
             title: 'Products',
+        },
+        productAdd :{
+            title: 'Add Product',
         },
     }
 }
